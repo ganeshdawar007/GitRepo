@@ -58,7 +58,6 @@ public class Uk_UBI {
 		String three="https://www.google.co.in/";
 		driver.get(three);	
 		Monitoring_FrameWork.writefile(step);
-		   Monitoring_FrameWork.CreatePath("UBI", "/home/apmosys/Desktop/Web_Monitoring/Webmonitoring","2015");
 		   driver.manage().timeouts().pageLoadTimeout(90,TimeUnit.SECONDS);
 		 
 		 //*******************************Union Bank Of India UK Page*********************************
