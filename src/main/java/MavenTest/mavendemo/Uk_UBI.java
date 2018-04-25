@@ -95,6 +95,8 @@ public class Uk_UBI {
 	{
 		driver.close();
 		driver.quit();
+		System.exit(0);
+
 	}
 	}
 	public static void main(String[] args) throws Exception
