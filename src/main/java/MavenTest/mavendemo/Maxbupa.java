@@ -454,6 +454,7 @@ public class Maxbupa {
 		finally{
 			
 			driver.close();	
+			System.exit(0);
 			//driver.quit();
 		}}
 }
