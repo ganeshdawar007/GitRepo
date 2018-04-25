@@ -97,6 +97,8 @@ public class Ubi_Corporate {
 		{
 			driver.close();
 			driver.quit();
+			System.exit(0);
+
 		}
 	}
 
