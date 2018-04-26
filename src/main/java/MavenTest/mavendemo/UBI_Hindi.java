@@ -58,7 +58,9 @@ public class UBI_Hindi {
 		driver.manage().window().maximize();
 		WebDriverWait wait=new WebDriverWait(driver,150);
 		//Screen lb=new Screen();
-		String three="https://www.google.co.in/";
+				String three="https://www.mozilla.org/en-US/";
+
+		//String three="https://www.google.co.in/";
 		driver.get(three);
 		Monitoring_FrameWork.writefile(step);
 		   Monitoring_FrameWork.CreatePath("UBI", "/home/apmosys/Desktop/Web_Monitoring/Webmonitoring","2015");
