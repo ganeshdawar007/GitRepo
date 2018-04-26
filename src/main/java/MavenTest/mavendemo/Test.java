@@ -27,6 +27,7 @@ public class Test {
 			driver.manage().window().setSize(d);
 			
 			driver.quit();
+		System.exit(0);
 		}
 
 }
