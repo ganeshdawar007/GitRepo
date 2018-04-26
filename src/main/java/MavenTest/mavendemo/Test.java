@@ -15,10 +15,10 @@ public class Test {
 			WebDriver driver=new FirefoxDriver();*/
 		String dir=System.getProperty("user.dir");
 		 System.out.println("currentdirect:"+dir);
-			System.setProperty("webdriver.gecko.driver", dir+"/Driver/geckodriver");
+			//System.setProperty("webdriver.gecko.driver", dir+"/Driver/geckodriver");
 		       //DesiredCapabilities cap=new DesiredCapabilities();
 		     
-				WebDriver driver=new FirefoxDriver();
+				//WebDriver driver=new FirefoxDriver();
 			driver.navigate().to("http://google.co.in");
 			//driver.navigate().to("http://google.co.in");
 			System.out.println(driver.manage().window().getSize());
