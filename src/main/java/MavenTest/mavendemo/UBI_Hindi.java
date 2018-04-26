@@ -45,13 +45,13 @@ public class UBI_Hindi {
 		 String dir=System.getProperty("user.dir");
 		 System.out.println("currentdirect:"+dir);
 		 Monitoring_FrameWork.CreatePath("UBI_Hindi", dir, "10");
-			System.setProperty("webdriver.chrome.driver", dir+"/Driver/chromedriver");
+			System.setProperty("webdriver.gecko.driver", dir+"/Driver/geckodriver");
 	      // DesiredCapabilities cap=new DesiredCapabilities();
-	     ChromeOptions ChromeOptions = new ChromeOptions();
-ChromeOptions.addArguments("--headless", "window-size=1024,768", "--no-sandbox");
-WebDriver driver = new ChromeDriver(ChromeOptions);
+	     //ChromeOptions ChromeOptions = new ChromeOptions();
+		//ChromeOptions.addArguments("--headless", "window-size=1024,768", "--no-sandbox");
+		//WebDriver driver = new ChromeDriver(ChromeOptions);
 			//WebDriver driver=new ChromeDriver();
-//		
+		WebDriver driver = new FirefoxDriver();//		
 //		WebDriver driver;
 //		FirefoxProfile ffprofile = new FirefoxProfile();		
 //		 driver = new FirefoxDriver(ffprofile);	
