@@ -47,8 +47,10 @@ public class Uk_UBI {
 		 Monitoring_FrameWork.CreatePath("Uk_UBI", dir, "10");
 			System.setProperty("webdriver.chrome.driver", dir+"/Driver/chromedriver");
 	      // DesiredCapabilities cap=new DesiredCapabilities();
-	     
-			WebDriver driver=new ChromeDriver();
+	     	ChromeOptions ChromeOptions = new ChromeOptions();
+		ChromeOptions.addArguments("--headless", "window-size=1024,768", "--no-sandbox");
+		driver = new ChromeDriver(ChromeOptions);
+			//WebDriver driver=new ChromeDriver();
 //		WebDriver driver;
 //		FirefoxProfile ffprofile = new FirefoxProfile();		
 //		 driver = new FirefoxDriver(ffprofile);	
